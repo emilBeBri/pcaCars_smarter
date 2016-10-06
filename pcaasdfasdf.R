@@ -1,3 +1,8 @@
+
+
+
+setwd("C:/Users/bubba/Dropbox/Speciale/testafgithub/pcaCars2")
+
 # cor = TRUE indicates that PCA is performed on 
 # standardized data (mean = 0, variance = 1)
 pcaCars <- princomp(mtcars, cor = TRUE)
@@ -10,3 +15,5 @@ summary(pcaCars)
 
 # bar plot
 plot(pcaCars)
+
+sdfasdf
